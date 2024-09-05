@@ -17,6 +17,15 @@ const SideBar = () => {
     return (
         <>
             <React.Fragment>
+
+            <ListItemButton component={Link} to="/">
+                    {/* <ListItemIcon>
+                        <HomeIcon color={location.pathname === ("/" || "/Admin/dashboard") ? 'primary' : 'inherit'} />
+                    </ListItemIcon> */}
+                    <img src="minorLogo.png"></img>
+                    <ListItemText primary="Academic Book" />
+                </ListItemButton>
+            
                 <ListItemButton component={Link} to="/">
                     <ListItemIcon>
                         <HomeIcon color={location.pathname === ("/" || "/Admin/dashboard") ? 'primary' : 'inherit'} />

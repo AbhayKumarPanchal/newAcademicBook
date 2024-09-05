@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Container, Grid, Box, Button } from '@mui/material';
 import styled from 'styled-components';
-import Students from "../assets/students.svg";
+import Students from "../assets/student.jpeg";
 import { LightPurpleButton } from '../components/buttonStyles';
 
 const Homepage = () => {
@@ -17,14 +17,11 @@ const Homepage = () => {
                         <StyledTitle>
                             Welcome to
                             <br />
-                            School Management
+                            ACADEMIC BOOK
                             <br />
-                            System
                         </StyledTitle>
                         <StyledText>
-                            Streamline school management, class organization, and add students and faculty.
-                            Seamlessly track attendance, assess performance, and provide feedback.
-                            Access records, view marks, and communicate effortlessly.
+                            Streamline personal DATASCIENCE student managment system
                         </StyledText>
                         <StyledBox>
                             <StyledLink to="/choose">
